@@ -1,0 +1,133 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  background-color: #9749b6;
+  background-image: linear-gradient(#9749b6, #c79cd7);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  overflow: hidden;
+}
+
+.h1 {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.myclass {
+  position: relative;
+}
+
+.mycls {
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.image_welcome {
+  width: 350px;
+  height: 500px;
+  position: relative;
+}
+
+.log_image {
+  display: flex;
+}
+
+.login_page {
+  background-color: #000;
+  background-image: linear-gradient(#000, #b068fa);
+  width: 110%;
+  height: 500px;
+}
+
+.images_logo {
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+  display: block;
+}
+
+.image_l {
+  padding-top: 50px;
+}
+
+.user_id {
+  border: 0;
+  border-radius: 8px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 7px;
+  display: flex;
+}
+
+.user_id_p {
+  padding: 50px 5px 5px;
+}
+
+.usser_pswd {
+  border: 0;
+  border-radius: 8px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 7px;
+  display: flex;
+}
+
+.user_p {
+  padding: 5px;
+}
+
+.fgot_passw {
+  color: #fff;
+  margin-left: 200px;
+  text-decoration: none !important;
+}
+
+.button_log {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+}
+
+.ebutton:hover {
+  background-color: #656f8f;
+  box-shadow: 10px 10px 20px #6855e099;
+}
+
+.ebutton {
+  text-align: center;
+  color: #fff;
+  background-color: #63337f;
+  border: 0 solid #6855e0;
+  border-radius: 30px;
+  width: 100%;
+  padding: 8px;
+  font-size: 20px;
+}
+
+.bottom {
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
